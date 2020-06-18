@@ -16,4 +16,6 @@ public interface UtenteService {
 	public List<Utente> findAllUtenteById(Long id);
 
 	public List<Utente> findAllUtenteByEmail(String email);
+	
+	public Utente login (String password, String email);
 }
