@@ -1,10 +1,10 @@
-package bibliotecaAFM.dao;
+package bibliotecaAFM.DAO;
 
 import java.util.List;
 
 import bibliotecaAFM.model.Utente;
 
-public interface UtenteDao {
+public interface UtenteDAO {
 	
 	public void addUtente(Utente u);
 
